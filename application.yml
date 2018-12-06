@@ -1,5 +1,5 @@
 turbine:
   aggregator:
     clusterConfig: system
-  appConfig: microservice
+  appConfig: microservice, api-gateway
 
