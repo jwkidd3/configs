@@ -2,6 +2,7 @@ turbine:
   aggregator:
     clusterConfig: system
   appConfig: system
+spring:
   cloud:
     config:
       enabled: true
