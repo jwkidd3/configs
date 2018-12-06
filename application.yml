@@ -1,5 +1,5 @@
 turbine:
   aggregator:
     clusterConfig: system
-  appConfig: system
+  appConfig: microservice
 
