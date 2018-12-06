@@ -1,5 +1,4 @@
 turbine:
-  aggregator:
-    clusterConfig: system
+  clusterNameExpression: new String('default')
   appConfig: microservice, api-gateway
 
