@@ -2,7 +2,9 @@ turbine:
   aggregator:
     clusterConfig: system
   appConfig: system
-eureka:
-  instance:
-    metadata-map:
-      management.port: ${management.port:8085}
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        enabled: true
+        serviceId: system
